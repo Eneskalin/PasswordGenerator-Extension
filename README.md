@@ -25,5 +25,8 @@ This browser extension allows you to generate secure and random passwords. Stron
 2. Choose the character options.
 3. Copy the generated password and use it as needed.
 
+## Screen Shots
+
+![Excention Screenshot](https://i.imgur.com/V7WMdRz.jpeg)
 
 
