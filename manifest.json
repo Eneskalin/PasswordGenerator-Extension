@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Password Generator",
+    "version": "1.0",
+    "description": "Generate secure passwords directly in your browser!",
+    "action": {
+    "default_popup": "popup.html",
+    "defaul_title":"Password Generator"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "permissions": [  "https://cdnjs.cloudflare.com/"]
+    
+  }
+  

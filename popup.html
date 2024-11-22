@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Password</title>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="box">
+            <h3 class="title is-4 has-text-primary">Password Generator</h3>
+            <div class="columns is-flex is-align-items-center">
+                <span id="result" class="column is-10 has-text-weight-bold"></span>
+                <button id="clipboard" class="button is-primary column is-2"><i id="icon" class="fa-regular fa-clipboard"></i></button>
+            </div>
+            <div class="checkboxes">
+                <label class="checkbox">
+                  <input type="checkbox" id="uppercase" checked />
+                  Uppercase
+                </label>
+              
+                <label class="checkbox">
+                  <input type="checkbox" id="lowercase" checked />
+                  LowerCase
+                </label>
+              
+                <label class="checkbox">
+                  <input type="checkbox" id="symbols" checked />
+                  Symbols
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" id="numbers" checked />
+                    Numbers
+                  </label>
+            </div>
+            <button id="generate" class="button is-primary">Generate</button>
+            <div class="sign columns">
+                <i id="github" class="fa-brands fa-github has-text-primary column is-2"></i>          
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/9bb416c0e3.js" crossorigin="anonymous"></script>
+    <script src="./js/popup.js"></script>
+</body>
+</html>
